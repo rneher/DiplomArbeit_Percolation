@@ -1,0 +1,116 @@
+{VERSION 5 0 "IBM INTEL LINUX" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 163 "chi_scc_6_26:=p->p-
+3*p^2+3*p^4-p^8;p0_scc_6:=fsolve(chi_scc_6_26(p),p=0.1..0.5);p0_scc_26
+:=1-fsolve(chi_scc_6_26(p),p=0.5..0.95);pc_scc_6:=0.3114;pc_scc_26:=0.
+095;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%-chi_scc_6_26Gf*6#%\"pG6\"6$
+%)operatorG%&arrowGF(,*9$\"\"\"*&\"\"$F.)F-\"\"#F.!\"\"*&F0F.)F-\"\"%F
+.F.*$)F-\"\")F.F3F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)p0_scc_6
+G$\"+$G#4SR!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*p0_scc_26G$\"+>g/
+R6!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)pc_scc_6G$\"%9J!\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*pc_scc_26G$\"#&*!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 110 "chi_scc_18_26:=p->p-9*p^2+12*p^3-3
+*p^4-p^8; p0_scc_18:=fsolve(chi_scc_18_26(p), p=0.05..0.5);pc_scc_18:=
+0.137;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.chi_scc_18_26Gf*6#%\"pG6
+\"6$%)operatorG%&arrowGF(,,9$\"\"\"*&\"\"*F.)F-\"\"#F.!\"\"*&\"#7F.)F-
+\"\"$F.F.*&F7F.)F-\"\"%F.F3*$)F-\"\")F.F3F(F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%*p0_scc_18G$\"+\"z\"zV8!#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%*pc_scc_18G$\"$P\"!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 55 "chi_diamant_4_47:=unapply(2*(-p^14+3*p^6-4*p^2+2*p),p
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%1chi_diamant_4_47Gf*6#%\"pG6\"
+6$%)operatorG%&arrowGF(,**&\"\"#\"\"\")9$\"#9F/!\"\"*&\"\"'F/)F1F5F/F/
+*&\"\")F/)F1F.F/F3*&\"\"%F/F1F/F/F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 149 "p0_diamant_4:=fsolve(chi_diamant_4_47(p),p=0.4..0.6)
+;p0_diamant_47:=1-fsolve(chi_diamant_4_47(p),p=0.6..0.95);pc_diamant_4
+:=0.4286;pc_diamant_47:=-1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%-p0_d
+iamant_4G$\"+8&o%=`!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.p0_diaman
+t_47G$\"*-LWh&!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%-pc_diamant_4G$
+\"%'G%!\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.pc_diamant_47G!\"\"" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "chi_diamant_4_19:=unapply
+(p*(1-p)*(p^8+p^7+p^6+p^5-4*p^4+2*p^3-p^2-p+1),p);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%1chi_diamant_4_19Gf*6#%\"pG6\"6$%)operatorG%&arrowG
+F(*(9$\"\"\",&F.F.F-!\"\"F.,4*$)F-\"\")F.F.*$)F-\"\"(F.F.*$)F-\"\"'F.F
+.*$)F-\"\"&F.F.*&\"\"%F.)F-F?F.F0*&\"\"#F.)F-\"\"$F.F.*$)F-FBF.F0F-F0F
+.F.F.F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 151 "p0_diamant_
+4a:=fsolve(chi_diamant_4_19(p),p=0.4..0.7);p0_diamant_19a:=1-fsolve(ch
+i_diamant_4_19(p),p=0.8..0.95);pc_diamant_4:=0.4286;pc_diamant_47:=-1;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.p0_diamant_4aG$\"+)za:s'!#5" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%/p0_diamant_19aG$\"+uf*[U\"!#5" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%-pc_diamant_4G$\"%'G%!\"%" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%.pc_diamant_47G!\"\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 56 "chi_diamant_8_20:=unapply(-2*p^6+3*p^4+2*p^3-
+4*p^2+p,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%1chi_diamant_8_20Gf*6
+#%\"pG6\"6$%)operatorG%&arrowGF(,,*&\"\"#\"\"\")9$\"\"'F/!\"\"*&\"\"$F
+/)F1\"\"%F/F/*&F.F/)F1F5F/F/*&F7F/)F1F.F/F3F1F/F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 145 "p0_diamant_8:=fsolve(chi_diamant_8
+_20(p),p=0.3..0.6);p0_diamant_20:=1-fsolve(chi_diamant_8_20(p),p=0.6..
+0.95);pc_diamant_8:=-1;pc_diamant_20:=-1;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%-p0_diamant_8G$\"+h\"[yG$!#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%.p0_diamant_20G$\"+pyZ*\\\"!#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%-pc_diamant_8G!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%.pc_diamant_20G!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 65 
+"chi_diamant_10_19:=unapply(1/2*(-3*p^6+p^4+10*p^3-10*p^2+2*p),p);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%2chi_diamant_10_19Gf*6#%\"pG6\"6$%)o
+peratorG%&arrowGF(,,*&#\"\"$\"\"#\"\"\"*$)9$\"\"'F1F1!\"\"*&#F1F0F1*$)
+F4\"\"%F1F1F1*&\"\"&F1)F4F/F1F1*&F=F1)F4F0F1F6F4F1F(F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 149 "p0_diamant_10:=fsolve(chi_diamant_
+10_19(p),p=0.1..0.5);p0_diamant_19:=1-fsolve(chi_diamant_10_19(p),p=0.
+6..0.95);pc_diamant_10:=-1;pc_diamant_19:=-1;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%.p0_diamant_10G$\"+\")R&=!G!#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%.p0_diamant_19G$\"+\"*pTe:!#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%.pc_diamant_10G!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%.pc_diamant_19G!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+51 "chi_fcc_12_18:=unapply(-p^6-2*p^4+8*p^3-6*p^2+p,p);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%.chi_fcc_12_18Gf*6#%\"pG6\"6$%)operatorG%&arro
+wGF(,,*$)9$\"\"'\"\"\"!\"\"*&\"\"#F1)F/\"\"%F1F2*&\"\")F1)F/\"\"$F1F1*
+&F0F1)F/F4F1F2F/F1F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+132 "p0_fcc_12a:=fsolve(chi_fcc_12_18(p),p=0.1..0.5);p0_fcc_18:=1-fsol
+ve(chi_fcc_12_18(p),p=0.5..0.9);pc_fcc_12:=0.1994;pc_fcc_18:=0.136;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+p0_fcc_12aG$\"+iD#*pB!#5" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%*p0_fcc_18G$\"+ZsM;;!#5" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%*pc_fcc_12G$\"%%*>!\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%*pc_fcc_18G$\"$O\"!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "chi_fcc_12_16:=unapply(-2*p^5-p^4+8*p^3-6*p^2+p,p);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.chi_fcc_12_16Gf*6#%\"pG6\"6$%)ope
+ratorG%&arrowGF(,,*&\"\"#\"\"\")9$\"\"&F/!\"\"*$)F1\"\"%F/F3*&\"\")F/)
+F1\"\"$F/F/*&\"\"'F/)F1F.F/F3F1F/F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 132 "p0_fcc_12b:=fsolve(chi_fcc_12_16(p),p=0.1..0.5);p0_f
+cc_16:=1-fsolve(chi_fcc_12_16(p),p=0.5..0.9);pc_fcc_12:=0.1994;pc_fcc_
+16:=0.145;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+p0_fcc_12bG$\"+(*RR,C
+!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*p0_fcc_16G$\"+UO$4&=!#5" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*pc_fcc_12G$\"%%*>!\"%" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%*pc_fcc_16G$\"$X\"!\"$" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 131 "chi_bcc_8_26:=unapply(-3*p^6+6*p^4-4*p^2+p,p)
+;chi_bcc_8_14:=unapply(-p+7*(1-(1-p)^2)-12*(1-(1-p)^3)+6*(1-(1-p)^4)+3
+*p^2*(1-p)^4,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%-chi_bcc_8_26Gf*
+6#%\"pG6\"6$%)operatorG%&arrowGF(,**&\"\"$\"\"\")9$\"\"'F/!\"\"*&F2F/)
+F1\"\"%F/F/*&F6F/)F1\"\"#F/F3F1F/F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%-chi_bcc_8_14Gf*6#%\"pG6\"6$%)operatorG%&arrowGF(,.9$!\"\"\"\"
+\"F/*&\"\"(F/),&F/F/F-F.\"\"#F/F.*&\"#7F/)F3\"\"$F/F/*&\"\"'F/)F3\"\"%
+F/F.*(F8F/)F-F4F/F;F/F/F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 280 "p0_bcc_8[1]:=fsolve(chi_bcc_8_26(p),p=0.1..0.5);p0_bcc_8[2]:=fs
+olve(chi_bcc_8_14(p),p=0.1..0.5);p0_bcc_26:=1-fsolve(chi_bcc_8_26[1](p
+),p=0.5..0.9);p0_bcc_26:=1-fsolve(chi_bcc_8_26(p),p=0.5..0.9);pc_bcc_8
+:=0.2458;pc_bcc_26:=0.095;p0_bcc_14[1]:=1-fsolve(chi_bcc_8_14(p),p=0.5
+..0.9);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%)p0_bcc_8G6#\"\"\"$\"+cb
+_CG!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%)p0_bcc_8G6#\"\"#$\"+uaL&
+=$!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*p0_bcc_26G$\"+,3TL5!#5" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*p0_bcc_26G$\"+,3TL5!#5" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%)pc_bcc_8G$\"%eC!\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%*pc_bcc_26G$\"#&*!\"$" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%*p0_bcc_14G6#\"\"\"$\"+t!4Z=#!#5" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 48 "chi_bcc_14_14:=unapply(p*(1-p)*(1-6*p+6*p^2),p);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.chi_bcc_14_14Gf*6#%\"pG6\"6$%)oper
+atorG%&arrowGF(*(9$\"\"\",&F.F.F-!\"\"F.,(F.F.*&\"\"'F.F-F.F0*&F3F.)F-
+\"\"#F.F.F.F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "p0_bcc
+_14[2]:=fsolve(chi_bcc_14_14(p),p=0.1..0.5);pc_bcc_14:=0.175;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%*p0_bcc_14G6#\"\"#$\"+a'[K6#!#5" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*pc_bcc_14G$\"$v\"!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 1 "\030" }}}}{MARK "6 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

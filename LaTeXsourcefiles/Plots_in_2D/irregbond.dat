@@ -1,0 +1,8 @@
+1 p0_bond[12] pc_bond[12] p1_bond[12] 1/2*p0_bond[12]+1/2*p1_bond[12]-pc_bond[12]
+2 p0_bond[13] pc_bond[13] p1_bond[13] 1/2*p0_bond[13]+1/2*p1_bond[13]-pc_bond[13]
+3 p0_bond[14] pc_bond[14] p1_bond[14] 1/2*p0_bond[14]+1/2*p1_bond[14]-pc_bond[14]
+4 p0_bond[15] pc_bond[15] p1_bond[15] 1/2*p0_bond[15]+1/2*p1_bond[15]-pc_bond[15]
+5 p0_bond[16] pc_bond[16] p1_bond[16] 1/2*p0_bond[16]+1/2*p1_bond[16]-pc_bond[16]
+6 p0_bond[17] pc_bond[17] p1_bond[17] 1/2*p0_bond[17]+1/2*p1_bond[17]-pc_bond[17]
+7 .3145152774 .3333333333 .3711662920 .95074514e-2
+0 0 0 0 0

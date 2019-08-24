@@ -1,0 +1,1276 @@
+# Grace project file
+#
+@version 50107
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%16.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue May 27 14:07:23 2003"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world xmin 1
+@    world xmax 1000
+@    world ymin 1e-05
+@    world ymax 1
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view xmin 0.150000
+@    view xmax 1.150000
+@    view ymin 0.150000
+@    view ymax 0.850000
+@    title "Square lattice: p-q & n-n* of clusters >x"
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Logarithmic
+@    yaxes scale Logarithmic
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 10
+@    xaxis  tick minor ticks 9
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 10
+@    yaxis  tick minor ticks 9
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.75, 0.6
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 4
+@    s0 symbol size 0.240000
+@    s0 symbol color 2
+@    s0 symbol pattern 1
+@    s0 symbol fill color 2
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 0
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 2
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "Cols 1:2"
+@    s0 legend  "p-q"
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 3
+@    s1 symbol size 0.240000
+@    s1 symbol color 4
+@    s1 symbol pattern 1
+@    s1 symbol fill color 4
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 0
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 2
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 4
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "Cols 1:3"
+@    s1 legend  "n-n*"
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 3
+@    s2 symbol pattern 1
+@    s2 symbol fill color 3
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 3
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 3
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "1 deg fit of set 0"
+@    s2 legend  "y = 0.19491 x^-0.12775"
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 10
+@    s3 symbol pattern 1
+@    s3 symbol fill color 10
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 10
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 10
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "1 deg fit of set 1"
+@    s3 legend  "y = 0.0085673 x^-1.0201"
+@target G0.S0
+@type xy
+               1         0.185493
+               2         0.165317
+               3         0.162068
+               4         0.158446
+               5         0.155365
+               6         0.152544
+               7         0.150242
+               8         0.148246
+               9         0.146493
+              10         0.145023
+              11         0.143504
+              12          0.14224
+              13         0.141095
+              14         0.139905
+              15         0.138766
+              16         0.137791
+              17         0.136874
+              18         0.135923
+              19         0.135012
+              20         0.134066
+              21         0.133448
+              22         0.132861
+              23         0.132163
+              24          0.13152
+              25          0.13087
+              26         0.130167
+              27         0.129527
+              28         0.128976
+              29          0.12842
+              30         0.128075
+              31         0.127325
+              32         0.126911
+              33         0.126353
+              34         0.125918
+              35         0.125484
+              36         0.125037
+              37         0.124721
+              38         0.124312
+              39         0.123956
+              40         0.123346
+              41         0.122938
+              42         0.122563
+              43         0.122074
+              44         0.121738
+              45         0.121444
+              46         0.120976
+              47           0.1207
+              48         0.120301
+              49         0.119898
+              50         0.119604
+              51         0.119251
+              52         0.118915
+              53         0.118663
+              54          0.11839
+              55         0.118106
+              56         0.117823
+              57         0.117658
+              58          0.11725
+              59         0.117051
+              60         0.116955
+              61         0.116606
+              62         0.116164
+              63         0.115886
+              64         0.115447
+              65         0.115289
+              66         0.115028
+              67         0.114745
+              68          0.11447
+              69         0.114321
+              70         0.114144
+              71         0.113857
+              72         0.113633
+              73         0.113468
+              74         0.113287
+              75         0.113019
+              76         0.112812
+              77         0.112536
+              78         0.112331
+              79         0.112204
+              80         0.111971
+              81         0.111841
+              82         0.111648
+              83         0.111429
+              84         0.111397
+              85         0.111197
+              86         0.110921
+              87         0.110806
+              88         0.110607
+              89          0.11054
+              90         0.110209
+              91          0.11002
+              92         0.109829
+              93         0.109768
+              94         0.109626
+              95         0.109411
+              96          0.10932
+              97         0.109284
+              98         0.109071
+              99         0.108772
+             100         0.108649
+             101         0.108334
+             102         0.108209
+             103         0.108219
+             104         0.108042
+             105         0.107645
+             106         0.107395
+             107         0.107142
+             108         0.107112
+             109         0.107071
+             110         0.106935
+             111         0.106799
+             112         0.106481
+             113         0.106385
+             114         0.106353
+             115         0.106342
+             116         0.106189
+             117          0.10589
+             118         0.105667
+             119         0.105723
+             120         0.105689
+             121          0.10554
+             122         0.105321
+             123         0.105251
+             124         0.105122
+             125          0.10498
+             126         0.104921
+             127          0.10468
+             128         0.104511
+             129         0.104486
+             130         0.104376
+             131         0.104314
+             132         0.104239
+             133         0.104075
+             134         0.103885
+             135         0.103655
+             136          0.10359
+             137         0.103448
+             138         0.103265
+             139          0.10312
+             140         0.102987
+             141         0.102907
+             142         0.102827
+             143         0.102759
+             144          0.10265
+             145         0.102554
+             146         0.102485
+             147         0.102498
+             148         0.102288
+             149         0.102203
+             150         0.102033
+             151         0.101976
+             152         0.101918
+             153         0.101918
+             154         0.101758
+             155         0.101728
+             156         0.101684
+             157         0.101639
+             158         0.101579
+             159         0.101564
+             160         0.101549
+             161         0.101412
+             162          0.10135
+             163         0.101165
+             164         0.101056
+             165         0.100947
+             166         0.100884
+             167         0.100884
+             168         0.100947
+             169         0.100851
+             170         0.100706
+             171         0.100447
+             172         0.100398
+             173          0.10025
+             174         0.100234
+             175         0.100084
+             176         0.100001
+             177        0.0999339
+             178        0.0998664
+             179        0.0996797
+             180        0.0996455
+             181        0.0995597
+             182        0.0996115
+             183        0.0993858
+             184        0.0992288
+             185        0.0990357
+             186        0.0989475
+             187        0.0988588
+             188        0.0986983
+             189        0.0987163
+             190        0.0986622
+             191        0.0985353
+             192        0.0984625
+             193         0.098554
+             194        0.0984436
+             195        0.0983696
+             196        0.0983138
+             197        0.0980895
+             198        0.0979016
+             199        0.0978639
+             200         0.097712
+             201        0.0977502
+             202        0.0976352
+             203        0.0977122
+             204        0.0976348
+&
+@target G0.S1
+@type xy
+               1        0.0134996
+               2       0.00341129
+               3         0.002599
+               4       0.00199533
+               5       0.00161023
+               6       0.00132813
+               7       0.00113635
+               8      0.000993729
+               9      0.000884199
+              10      0.000802517
+              11      0.000726557
+              12      0.000669098
+              13      0.000621414
+              14      0.000575638
+              15      0.000534964
+              16      0.000502443
+              17      0.000473785
+              18      0.000445843
+              19      0.000420523
+              20      0.000395632
+              21      0.000380182
+              22      0.000366211
+              23      0.000350332
+              24      0.000336361
+              25      0.000322819
+              26      0.000308752
+              27       0.00029645
+              28      0.000286245
+              29      0.000276327
+              30      0.000270367
+              31      0.000257874
+              32      0.000251198
+              33      0.000242472
+              34      0.000235891
+              35      0.000229502
+              36      0.000223112
+              37      0.000218725
+              38      0.000213194
+              39      0.000208521
+              40      0.000200701
+              41      0.000195599
+              42      0.000191021
+              43      0.000185204
+              44      0.000181293
+              45      0.000177956
+              46      0.000172758
+              47      0.000169754
+              48       0.00016551
+              49      0.000161314
+              50       0.00015831
+              51      0.000154781
+              52      0.000151491
+              53      0.000149059
+              54      0.000146484
+              55      0.000143862
+              56      0.000141287
+              57      0.000139809
+              58      0.000136232
+              59      0.000134516
+              60      0.000133705
+              61      0.000130796
+              62      0.000127172
+              63      0.000124931
+              64       0.00012145
+              65      0.000120211
+              66      0.000118208
+              67      0.000116062
+              68      0.000114012
+              69      0.000112915
+              70      0.000111628
+              71      0.000109577
+              72      0.000108004
+              73      0.000106859
+              74      0.000105619
+              75      0.000103807
+              76      0.000102425
+              77      0.000100613
+              78      9.92775e-05
+              79      9.84669e-05
+              80      9.69887e-05
+              81      9.61781e-05
+              82       9.4986e-05
+              83      9.36508e-05
+              84      9.34601e-05
+              85       9.2268e-05
+              86      9.06467e-05
+              87      8.99792e-05
+              88      8.88348e-05
+              89      8.84533e-05
+              90      8.65936e-05
+              91      8.55446e-05
+              92      8.44955e-05
+              93      8.41618e-05
+              94      8.33988e-05
+              95      8.22544e-05
+              96      8.17776e-05
+              97      8.15868e-05
+              98      8.04901e-05
+              99      7.89642e-05
+             100      7.83443e-05
+             101      7.67708e-05
+             102      7.61509e-05
+             103      7.61986e-05
+             104      7.53403e-05
+             105      7.34329e-05
+             106      7.22408e-05
+             107      7.10487e-05
+             108      7.09057e-05
+             109       7.0715e-05
+             110      7.00951e-05
+             111      6.94752e-05
+             112      6.80447e-05
+             113      6.76155e-05
+             114      6.74725e-05
+             115      6.74248e-05
+             116      6.67572e-05
+             117      6.54697e-05
+             118      6.45161e-05
+             119      6.47545e-05
+             120      6.46114e-05
+             121      6.39915e-05
+             122      6.30856e-05
+             123      6.27995e-05
+             124      6.22749e-05
+             125      6.17027e-05
+             126      6.14643e-05
+             127      6.05106e-05
+             128      5.98431e-05
+             129      5.97477e-05
+             130      5.93185e-05
+             131      5.90801e-05
+             132       5.8794e-05
+             133      5.81741e-05
+             134      5.74589e-05
+             135      5.66006e-05
+             136      5.63622e-05
+             137      5.58376e-05
+             138      5.51701e-05
+             139      5.46455e-05
+             140      5.41687e-05
+             141      5.38826e-05
+             142      5.35965e-05
+             143      5.33581e-05
+             144      5.29766e-05
+             145      5.26428e-05
+             146      5.24044e-05
+             147      5.24521e-05
+             148      5.17368e-05
+             149      5.14507e-05
+             150      5.08785e-05
+             151      5.06878e-05
+             152      5.04971e-05
+             153      5.04971e-05
+             154      4.99725e-05
+             155      4.98772e-05
+             156      4.97341e-05
+             157      4.95911e-05
+             158      4.94003e-05
+             159      4.93526e-05
+             160       4.9305e-05
+             161      4.88758e-05
+             162      4.86851e-05
+             163      4.81129e-05
+             164      4.77791e-05
+             165      4.74453e-05
+             166      4.72546e-05
+             167      4.72546e-05
+             168      4.74453e-05
+             169      4.71592e-05
+             170        4.673e-05
+             171      4.59671e-05
+             172      4.58241e-05
+             173      4.53949e-05
+             174      4.53472e-05
+             175      4.49181e-05
+             176      4.46796e-05
+             177      4.44889e-05
+             178      4.42982e-05
+             179      4.37737e-05
+             180      4.36783e-05
+             181      4.34399e-05
+             182      4.35829e-05
+             183       4.2963e-05
+             184      4.25339e-05
+             185      4.20094e-05
+             186      4.17709e-05
+             187      4.15325e-05
+             188      4.11034e-05
+             189       4.1151e-05
+             190       4.1008e-05
+             191      4.06742e-05
+             192      4.04835e-05
+             193      4.07219e-05
+             194      4.04358e-05
+             195      4.02451e-05
+             196       4.0102e-05
+             197      3.95298e-05
+             198       3.9053e-05
+             199      3.89576e-05
+             200      3.85761e-05
+             201      3.86715e-05
+             202      3.83854e-05
+             203      3.85761e-05
+             204      3.83854e-05
+&
+@target G0.S2
+@type xy
+               1       0.19490882
+               2       0.17839159
+               3       0.16938635
+               4       0.16327409
+               5       0.15868536
+               6       0.15503199
+               7       0.15200881
+               8        0.1494377
+               9       0.14720595
+              10       0.14523783
+              11       0.14348013
+              12       0.14189406
+              13        0.1404505
+              14       0.13912707
+              15        0.1379062
+              16       0.13677385
+              17       0.13571864
+              18       0.13473122
+              19       0.13380382
+              20       0.13292989
+              21       0.13210392
+              22       0.13132115
+              23       0.13057752
+              24       0.12986948
+              25       0.12919397
+              26       0.12854826
+              27       0.12792997
+              28       0.12733698
+              29       0.12676741
+              30       0.12621957
+              31       0.12569195
+              32       0.12518318
+              33       0.12469203
+              34       0.12421739
+              35       0.12375824
+              36       0.12331365
+              37       0.12288277
+              38       0.12246484
+              39       0.12205912
+              40       0.12166497
+              41       0.12128178
+              42       0.12090899
+              43       0.12054607
+              44       0.12019256
+              45       0.11984798
+              46       0.11951194
+              47       0.11918404
+              48       0.11886391
+              49       0.11855122
+              50       0.11824564
+              51       0.11794688
+              52       0.11765465
+              53       0.11736869
+              54       0.11708876
+              55       0.11681461
+              56       0.11654602
+              57       0.11628279
+              58       0.11602472
+              59       0.11577161
+              60        0.1155233
+              61       0.11527962
+              62       0.11504039
+              63       0.11480548
+              64       0.11457474
+              65       0.11434803
+              66       0.11412521
+              67       0.11390618
+              68        0.1136908
+              69       0.11347896
+              70       0.11327055
+              71       0.11306548
+              72       0.11286364
+              73       0.11266494
+              74       0.11246928
+              75       0.11227658
+              76       0.11208676
+              77       0.11189973
+              78       0.11171542
+              79       0.11153376
+              80       0.11135468
+              81        0.1111781
+              82       0.11100396
+              83        0.1108322
+              84       0.11066276
+              85       0.11049558
+              86        0.1103306
+              87       0.11016777
+              88       0.11000704
+              89       0.10984835
+              90       0.10969167
+              91       0.10953693
+              92        0.1093841
+              93       0.10923313
+              94       0.10908399
+              95       0.10893662
+              96       0.10879099
+              97       0.10864706
+              98       0.10850479
+              99       0.10836415
+             100       0.10822511
+             101       0.10808762
+             102       0.10795167
+             103        0.1078172
+             104        0.1076842
+             105       0.10755264
+             106       0.10742248
+             107        0.1072937
+             108       0.10716626
+             109       0.10704016
+             110       0.10691535
+             111       0.10679181
+             112       0.10666952
+             113       0.10654846
+             114        0.1064286
+             115       0.10630992
+             116       0.10619239
+             117       0.10607601
+             118       0.10596074
+             119       0.10584657
+             120       0.10573347
+             121       0.10562143
+             122       0.10551044
+             123       0.10540046
+             124       0.10529149
+             125        0.1051835
+             126       0.10507648
+             127       0.10497042
+             128       0.10486529
+             129       0.10476109
+             130       0.10465779
+             131       0.10455539
+             132       0.10445386
+             133        0.1043532
+             134       0.10425339
+             135       0.10415441
+             136       0.10405626
+             137       0.10395892
+             138       0.10386237
+             139       0.10376661
+             140       0.10367163
+             141       0.10357741
+             142       0.10348393
+             143        0.1033912
+             144        0.1032992
+             145       0.10320791
+             146       0.10311733
+             147       0.10302745
+             148       0.10293826
+             149       0.10284974
+             150       0.10276189
+             151       0.10267469
+             152       0.10258815
+             153       0.10250225
+             154       0.10241697
+             155       0.10233232
+             156       0.10224829
+             157       0.10216485
+             158       0.10208202
+             159       0.10199977
+             160       0.10191811
+             161       0.10183702
+             162       0.10175649
+             163       0.10167653
+             164       0.10159711
+             165       0.10151824
+             166       0.10143991
+             167        0.1013621
+             168       0.10128483
+             169       0.10120806
+             170       0.10113181
+             171       0.10105606
+             172       0.10098081
+             173       0.10090606
+             174       0.10083178
+             175       0.10075799
+             176       0.10068467
+             177       0.10061182
+             178       0.10053944
+             179       0.10046751
+             180       0.10039603
+             181         0.100325
+             182       0.10025441
+             183       0.10018425
+             184       0.10011453
+             185       0.10004523
+             186      0.099976353
+             187      0.099907893
+             188      0.099839844
+             189      0.099772203
+             190      0.099704964
+             191      0.099638123
+             192      0.099571675
+             193      0.099505616
+             194      0.099439943
+             195       0.09937465
+             196      0.099309733
+             197      0.099245189
+             198      0.099181014
+             199      0.099117203
+             200      0.099053752
+             201      0.098990659
+             202      0.098927918
+             203      0.098865527
+             204      0.098803481
+&
+@target G0.S3
+@type xy
+               1     0.0085672627
+               2     0.0042242302
+               3     0.0027932435
+               4     0.0020828263
+               5     0.0016587873
+               6     0.0013772548
+               7     0.0011768437
+               8     0.0010269719
+               9    0.00091070037
+              10    0.00081789245
+              11    0.00074211228
+              12    0.00067907818
+              13    0.00062583141
+              14     0.0005802622
+              15    0.00054082583
+              16    0.00050636542
+              17    0.00047599751
+              18    0.00044903584
+              19    0.00042493926
+              20    0.00040327536
+              21    0.00038369444
+              22     0.0003659107
+              23    0.00034968825
+              24    0.00033483069
+              25    0.00032117323
+              26     0.0003085765
+              27     0.0002969219
+              28    0.00028610785
+              29    0.00027604684
+              30    0.00026666309
+              31    0.00025789064
+              32    0.00024967182
+              33    0.00024195597
+              34    0.00023469842
+              35    0.00022785965
+              36    0.00022140452
+              37    0.00021530174
+              38    0.00020952331
+              39    0.00020404411
+              40    0.00019884157
+              41    0.00019389529
+              42    0.00018918687
+              43     0.0001846996
+              44     0.0001804183
+              45    0.00017632916
+              46    0.00017241956
+              47    0.00016867796
+              48     0.0001650938
+              49    0.00016165737
+              50    0.00015835976
+              51    0.00015519274
+              52    0.00015214873
+              53    0.00014922073
+              54    0.00014640224
+              55    0.00014368725
+              56    0.00014107019
+              57    0.00013854587
+              58    0.00013610945
+              59    0.00013375644
+              60    0.00013148264
+              61    0.00012928412
+              62    0.00012715723
+              63    0.00012509854
+              64    0.00012310481
+              65    0.00012117303
+              66    0.00011930038
+              67    0.00011748418
+              68    0.00011572193
+              69    0.00011401126
+              70    0.00011234996
+              71    0.00011073591
+              72    0.00010916715
+              73     0.0001076418
+              74    0.00010615807
+              75    0.00010471431
+              76    0.00010330892
+              77     0.0001019404
+              78    0.00010060731
+              79    9.9308315e-05
+              80    9.8042113e-05
+              81    9.6807486e-05
+              82    9.5603272e-05
+              83    9.4428363e-05
+              84    9.3281707e-05
+              85      9.21623e-05
+              86    9.1069184e-05
+              87    9.0001448e-05
+              88     8.895822e-05
+              89    8.7938669e-05
+              90       8.6942e-05
+              91    8.5967454e-05
+              92    8.5014305e-05
+              93    8.4081858e-05
+              94    8.3169448e-05
+              95    8.2276438e-05
+              96    8.1402218e-05
+              97    8.0546203e-05
+              98    7.9707832e-05
+              99    7.8886566e-05
+             100    7.8081889e-05
+             101    7.7293305e-05
+             102    7.6520338e-05
+             103     7.576253e-05
+             104     7.501944e-05
+             105    7.4290646e-05
+             106     7.357574e-05
+             107    7.2874329e-05
+             108    7.2186038e-05
+             109    7.1510501e-05
+             110     7.084737e-05
+             111    7.0196306e-05
+             112    6.9556985e-05
+             113    6.8929092e-05
+             114    6.8312324e-05
+             115     6.770639e-05
+             116    6.7111008e-05
+             117    6.6525904e-05
+             118    6.5950817e-05
+             119    6.5385491e-05
+             120    6.4829682e-05
+             121    6.4283151e-05
+             122    6.3745669e-05
+             123    6.3217014e-05
+             124    6.2696972e-05
+             125    6.2185332e-05
+             126    6.1681896e-05
+             127    6.1186466e-05
+             128    6.0698855e-05
+             129     6.021888e-05
+             130    5.9746362e-05
+             131    5.9281131e-05
+             132    5.8823019e-05
+             133    5.8371865e-05
+             134    5.7927512e-05
+             135    5.7489807e-05
+             136    5.7058604e-05
+             137    5.6633759e-05
+             138    5.6215132e-05
+             139    5.5802589e-05
+             140    5.5395999e-05
+             141    5.4995233e-05
+             142    5.4600169e-05
+             143    5.4210685e-05
+             144    5.3826664e-05
+             145    5.3447994e-05
+             146    5.3074562e-05
+             147    5.2706262e-05
+             148    5.2342989e-05
+             149    5.1984641e-05
+             150    5.1631119e-05
+             151    5.1282326e-05
+             152    5.0938168e-05
+             153    5.0598554e-05
+             154    5.0263395e-05
+             155    4.9932604e-05
+             156    4.9606096e-05
+             157    4.9283789e-05
+             158    4.8965602e-05
+             159    4.8651458e-05
+             160    4.8341281e-05
+             161    4.8034994e-05
+             162    4.7732527e-05
+             163    4.7433809e-05
+             164     4.713877e-05
+             165    4.6847343e-05
+             166    4.6559462e-05
+             167    4.6275063e-05
+             168    4.5994084e-05
+             169    4.5716463e-05
+             170    4.5442142e-05
+             171    4.5171061e-05
+             172    4.4903163e-05
+             173    4.4638394e-05
+             174    4.4376698e-05
+             175    4.4118023e-05
+             176    4.3862317e-05
+             177     4.360953e-05
+             178    4.3359611e-05
+             179    4.3112512e-05
+             180    4.2868187e-05
+             181    4.2626588e-05
+             182    4.2387671e-05
+             183    4.2151391e-05
+             184    4.1917705e-05
+             185    4.1686571e-05
+             186    4.1457947e-05
+             187    4.1231792e-05
+             188    4.1008068e-05
+             189    4.0786735e-05
+             190    4.0567755e-05
+             191    4.0351091e-05
+             192    4.0136706e-05
+             193    3.9924565e-05
+             194    3.9714634e-05
+             195    3.9506877e-05
+             196    3.9301261e-05
+             197    3.9097753e-05
+             198    3.8896322e-05
+             199    3.8696936e-05
+             200    3.8499563e-05
+             201    3.8304174e-05
+             202    3.8110739e-05
+             203    3.7919229e-05
+             204    3.7729615e-05
+&
